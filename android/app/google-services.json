@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "133654815041",
+    "project_id": "preownedhub",
+    "storage_bucket": "preownedhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133654815041:android:c2a529098716274947c1c0",
+        "android_client_info": {
+          "package_name": "com.example.preownedhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrEK_Z1qDnG6P0P4_s3voQ7y8pqgZyWqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
