@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:preownedhub/core/home/cart.dart';
-import 'package:preownedhub/core/home/product_details.dart';
-import 'package:preownedhub/core/profile/profile.dart';
-import 'package:preownedhub/core/sell/sell.dart';
+import 'package:preownedhub/pages/home/cart.dart';
+import 'package:preownedhub/pages/home/product_details.dart';
+import 'package:preownedhub/pages/profile/profile.dart';
+import 'package:preownedhub/pages/sell/sell.dart';
 import 'package:preownedhub/models/product.dart';
 import 'package:preownedhub/provider/cart_provider.dart';
 import 'package:preownedhub/provider/product_provider.dart';

@@ -26,7 +26,7 @@ class FirebaseService {
   }
 
   static Future<void> addDeliveryDetails(
-    String productId, String address, Product product) async {
+    String productId, String address, String phone, Product product) async {
   // Create the order data
   Map<String, dynamic> orderData = {
     'productId': productId,
@@ -39,6 +39,7 @@ class FirebaseService {
     'sellerId': product.sellerId, // Include seller ID if needed
     'buyerId': FirebaseAuth.instance.currentUser!.uid,
     'orderId': product.id,
+    'phone': phone,
   };
 
   // Save the order to Firebase using a unique productId

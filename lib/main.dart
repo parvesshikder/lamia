@@ -1,12 +1,12 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:preownedhub/core/home/home.dart';
-import 'package:preownedhub/core/login/enter_login_details_page.dart';
-import 'package:preownedhub/core/login/login.dart';
-import 'package:preownedhub/core/register/enter_register_details_page.dart';
-import 'package:preownedhub/core/register/register.dart';
+import 'package:preownedhub/pages/home/home.dart';
+import 'package:preownedhub/pages/login/enter_login_details_page.dart';
+import 'package:preownedhub/pages/login/login.dart';
+import 'package:preownedhub/pages/register/enter_register_details_page.dart';
+import 'package:preownedhub/pages/register/register.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
